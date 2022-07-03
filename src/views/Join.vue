@@ -1,5 +1,5 @@
 <template>
-  <h2 header>Join us now</h2>
+  <h2 class="header">Join us now</h2>
   <div class="split1">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
