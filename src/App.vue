@@ -6,10 +6,9 @@
     <router-link to="/">Home</router-link>
     <router-link :to="{ name: 'About' }">About Us</router-link>
     <router-link :to="{ name: 'Programs' }">Programs</router-link>
+    <router-link :to="{ name: 'Join' }"> Join Our Cohorts</router-link>
     <router-link :to="{ name: 'Partner' }">Partner With Us</router-link>
     <router-link :to="{ name: 'Contact' }"> Contact Us</router-link>
-
-
   </div>
   <router-view />
 
