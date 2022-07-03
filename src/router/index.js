@@ -5,6 +5,7 @@ import Programs from "../views/Programs.vue";
 import Partner from "../views/Partner.vue";
 import Contact from "../views/Contact.vue";
 import Join from "../views/Join.vue";
+import NotFound from "../components/NotFound.vue";
 
 const routes = [
   {
@@ -15,27 +16,33 @@ const routes = [
   {
     path: "/about-us",
     name: "About",
-    component:About,
+    component: About,
   },
   {
     path: "/programs",
     name: "Programs",
-    component:Programs,
+    component: Programs,
   },
   {
     path: "/partner-with-us",
     name: "Partner",
-    component:Partner,
+    component: Partner,
   },
   {
     path: "/join-our-cohort",
     name: "Join",
-    component:Join,
+    component: Join,
   },
   {
     path: "/contact-us",
     name: "Contact",
-    component:Contact,
+    component: Contact,
+  },
+  //not found
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    component: NotFound,
   },
 ];
 

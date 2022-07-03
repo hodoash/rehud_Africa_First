@@ -8,9 +8,22 @@
     <router-link :to="{ name: 'Programs' }">Programs</router-link>
     <router-link :to="{ name: 'Partner' }">Partner With Us</router-link>
     <router-link :to="{ name: 'Contact' }"> Contact Us</router-link>
+
+
   </div>
   <router-view />
+
+  <Footer />
 </template>
+<script>
+import Footer from "../src/components/Footer.vue";
+
+export default {
+  components: {
+    Footer,
+  },
+};
+</script>
 
 <style>
 #app {
